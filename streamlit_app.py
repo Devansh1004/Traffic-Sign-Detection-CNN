@@ -13,7 +13,7 @@ import pandas as pd
 from PIL import Image
 
 # Load the model
-model = tf.keras.models.load_model('traffic_sign_cnn_small.keras')
+model = tf.keras.models.load_model('traffic_sign_cnn_medium.keras')
 
 # Load label mapping
 label_map = pd.read_csv('label_names.csv')
